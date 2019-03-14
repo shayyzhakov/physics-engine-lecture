@@ -1,0 +1,35 @@
+.main-container {
+  display: flex;
+  height: 500px;
+  margin: 40px;
+}
+
+canvas {
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 250px;
+}
+
+.buttons-container * {
+  margin: 10px;
+}
+
+.buttons-container button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  border: 1px solid #bbbbbb;
+  background: #fafafa;
+}
+
+.buttons-container button:active {
+  background: #eef5ee;
+}
