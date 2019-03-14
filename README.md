@@ -8,3 +8,5 @@ The steps are:
 4. Make the balls bounce when reaching a wall.
 5. Add gravity control input, and an air-friction to make the ball's y speed shrink over time.
 6. Ensure the balls cannot fall of the ground, and add ground friction (x axis).
+
+![Alt text](media/NextStepPositionCalc.png "Should-bounce test")
